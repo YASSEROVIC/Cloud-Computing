@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="assets/fonts/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="assets/fonts/elegant-fonts.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+    <title>CIS Project AWS</title>
+
+    <style>
+        body { background-color: #f3f3f3; }
+        .bg-form {background-color: #fff;}
+    </style>
+
+</head>
+
+<body>
+
+<div class="page-wrapper">
+    <header>
+        
+        <div class="brand animate"><a href=""><img src="assets/img/logo.png" alt=""></a></div>
+        <nav>
+            <ul class="navigation animate">
+                <li><a href="" data-toggle="modal" data-target="#modal-about-us">About Us</a></li>
+                <li><a href="" data-toggle="modal" data-target="#modal-cis-class">CIS 4355</a></li>
+                <li><a href="https://UIW.edu" >UIW Site</a></li>
+            </ul>
+            <!--end navigation-->
+        </nav>
+    </header>
+    <div class="content-wrapper">
+        <div class="content-main animate">
+            <div class="container bg-light">
+                <h1 class="font-size-90">Contact Us</h1>
+                <h2 class="opacity-60">this form will send details to Database RDS</h2>
+                <div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1 bg-form">
+                            <fieldset> 
+                              <form name="frmContact" class="needs-validation " method="post" action="form.php">
+                                <p>
+                                  <input type="text" class="form-control" name="txtName" id="txtName" placeholder="Name" value="" required>
+                                </p>
+                                <p>
+                                  <input type="text"  class="form-control"  name="txtEmail" id="txtEmail" placeholder="Email" value="" required>
+                                </p>
+                                <p>
+                                  <input type="text"  class="form-control" name="txtPhone" id="txtPhone" placeholder="Phone" value="" required>
+                                </p>
+                                <p>
+                                  <textarea name="txtMessage" class="form-control"  id="txtMessage"  placeholder="Message" required></textarea>
+                                </p>
+                                <p>
+                                  <input type="submit" name="Submit" id="Submit" value="Click Here to Contact"  class="btn btn-primary btn-lg btn-block">
+                                </p>
+                              </form>
+                            </fieldset>                           
+                            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+                                <!--end navigation-->
+                    <!--end form-->
+                </div>
+                <!--end col-md-10-->
+            </div>
+            <!--end container-->
+        </div>
+        <!--end content-main-->
+        <div class="background-wrapper">
+            <div id="background-content"></div>
+        </div>
+        <!--end background-wrapper-->
+    </div>
+    <!--end content-wrapper-->
+    <footer>
+        <div class="social-icons animate">
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+        </div>
+        <!--end social-icons-->
+    </footer>
+</div>
+<!--end page-wrapper-->
+
+<!-- Modal About Us -->
+<div class="modal fade" id="modal-about-us" tabindex="-1" role="dialog" aria-labelledby="modal-about-us-label">
+    <div class="modal-dialog" role="document">
+        <div class="container">
+            <div class="modal-content">
+                <div class="modal-header" data-background-color="#61dfff">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h2 class="modal-title" id="modal-about-us-label">About Us</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-5">
+                            <section>
+                                <h3>Our Group</h3>
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="person">
+                                            <h4>Yasir</h4>
+                                            <div class="social-icons">
+                                                <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                                                <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                                                <a href="https://github.com/"><i class="fa fa-github"></i></a>
+                                            </div>
+                                        </div>
+                                        <!--end person-->
+                                    </div>
+                                    <!--end col-md-6-->
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="person">
+                                            <h4>Stefanie Perez </h4>
+                                        </div>
+                                        <!--end person-->
+                                    </div>
+                                    <!--end col-md-6-->
+                                    <!--end col-md-6-->
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="person">
+                                            <h4>Briah Graves</h4>
+                                        </div>
+                                        <!--end person-->
+                                    </div>
+                                    <!--end col-md-6-->
+                                </div>
+                                <!--end row-->
+                            </section>
+                        </div>
+                        <!--end col-md-4-->
+                        <div class="col-md-7 col-sm-7">
+                            <section>
+                                <h3>Shortly About the Project</h3>
+                                <p>As part of our group project, we installed and set up host websites and chatbots utilizing AWS services. The project's goal is to use Amazon Web Services to build a chatbot and websites (AWS). The actions to accomplish this goal are as follows: selecting AWS services, using HTML and CSS pages to build a website, using different AWS services such as EC2, S3, Route 53 ,and CloudFront
+                                </p>
+                            </section>
+                        </div>
+                        <!--end col-md-7-->
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end modal-body-->
+            </div>
+            <!--end modal-content-->
+        </div>
+        <!--end container-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end #modal-about-us-->
+
+<!-- Modal cis-class -->
+<div class="modal fade" id="modal-cis-class" tabindex="-1" role="dialog" aria-labelledby="modal-cis-class-label">
+    <div class="modal-dialog" role="document">
+        <div class="container">
+            <div class="modal-content">
+                <div class="modal-header" data-background-color="#8dff8b">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h2 class="modal-title" id="modal-cis-class-label">About CIS 4355 Class</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <p>This course is intended for students who are interested in learning the fundamentals of cloud computing
+                            with regards to planning, deployment, migration and maintenance. Students will also learn about related
+                            risks as they pertain to business continuity, security and management</p>
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end modal-body-->
+            </div>
+            <!--end modal-content-->
+        </div>
+        <!--end container-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end #modal-our-works-->
+
+<script  src="assets/js/jquery-2.2.1.min.js"></script>
+<script  src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script  src="assets/js/jquery.validate.min.js"></script>
+<script  src="assets/js/jquery.magnific-popup.min.js"></script>
+<script  src="assets/js/blockrain.jquery.min.js"></script>
+<script  src="assets/js/custom.js"></script>
+
+<script>
+    // Background
+
+    window.BlockrainThemes = {
+        'my': {
+            background: '#ececec',
+            backgroundGrid: null,
+            primary: null,
+            secondary: null,
+            stroke: null,
+            innerStroke: null,
+            blocks: {
+                line:     '#8dff8b',
+                square:   '#ff6767',
+                arrow:    '#61dfff',
+                rightHook:'#ff6767',
+                leftHook: '#c8c8c8',
+                rightZag: '#ffe858',
+                leftZag:  '#ffffff'
+            }
+        }
+    };
+    $('#background-content').blockrain({
+        theme: "my",
+        blockWidth: 15,
+        speed: 6,
+        autoplay: true,
+        autoplayRestart: true
+    });
+
+
+</script>
+
+</body>
