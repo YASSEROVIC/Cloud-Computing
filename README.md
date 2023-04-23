@@ -4,7 +4,7 @@ This repository contains the project files for the Cloud Computing Class CIS-435
 
 ## screenshot 
 
-![Project Screenshot](Screenshot .png)
+![Project Screenshot](https://github.com/YASSEROVIC/Cloud-Computing/blob/main/Screenshot.png?raw=true)
 
 ## Features
 
